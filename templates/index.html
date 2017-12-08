@@ -9,12 +9,11 @@
 	<body>
 		<div class="main">
 			<p class="title">how long has quinn been single?</p>
-			<p>It's been</p>
 			<div class="tableContainer">
 				<table class="countUp">
 					<tbody>
 						<tr class="info-title">
-							<td colspan="4">since last relationship</td>
+							<td colspan="4">It has been</td>
 						</tr>
 						<tr class="info">
 							<td id="days"></td>
@@ -37,22 +36,21 @@
 			</div>
 		</div>
 		<div class="nav">
-			<button class="navbutton" id="main">Top</button>
-			<button class="navbutton" id="charts">Charts</button>
-			<button class="navbutton" id="charts">Apply</button>
-
+			<p class="navbutton" id="main">Top</button>
+			<p class="navbutton" id="charts">Charts</button>
+			<p class="navbutton" id="charts">Apply</button>
 		</div>
 
 	</body>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.bundle.js"></script>
-
+    <script src="jquery-3.2.1.min.js"></script>
     <!--Testing for local-->
-	<script src="../static/scripts/allCharts.js"></script>
+    <script src="../static/scripts/allCharts.js"></script>
     <script src="../static/scripts/countdown.js"></script>
     <script src="../static/scripts/cursor.js.js"></script>
 
     <!--For Flask-->
-	<script src="{{url_for('static', filename='scripts/countdown.js')}}"></script>
+    <script src="{{url_for('static', filename='scripts/countdown.js')}}"></script>
     <script src="{{url_for('static', filename='scripts/cursor.js')}}"></script>
     <script src="{{url_for('static', filename='scripts/allCharts.js')}}"></script>
 </html>
