@@ -4,13 +4,13 @@
 		<meta charset="utf-8">
 		<title>Is Quinn Single?</title>
 		<!--<link href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway" rel="stylesheet">-->
-		<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+		<link rel= "stylesheet" type= "text/css" href="../static/styles/style.css">
 	</head>
 	<body>
 		<p>hello worldd!</p>
 		<p class="test">this is live update</p>
-		<div id="container" style="width: 75%;">
-			<canvas id="chart1"></canvas>
-		</div>
+		<canvas id="pie" width="300" height="100"></canvas>
 	</body>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.bundle.js"></script>
+	<script src="../static/scripts/scripts.js"></script>
 </html>
