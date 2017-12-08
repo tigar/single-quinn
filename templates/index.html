@@ -8,7 +8,7 @@
 	</head>
 	<body>
 		<div class="main">
-			<div class="pane" id="count"
+			<div class="pane" id="count">
 				<p class="title">how long has quinn been single?</p>
 				<div class="tableContainer">
 					<table class="countUp">
@@ -35,24 +35,31 @@
 			<div class="pane" id="container" style="width: 75%;">
 				<canvas id="pie" width="300" height="100"></canvas>
 			</div>
-			<div class="pane"></div>
+			<div class="pane" id="application"></div>
 		</div>
 		<div class="nav">
-			<p class="navbutton" id="main">Top</button>
-			<p class="navbutton" id="charts">Charts</button>
-			<p class="navbutton" id="charts">Apply</button>
+			<button class="navbutton" id="top">Top</button>
+			<button class="navbutton" id="charts">Charts</button>
+			<button class="navbutton" id="apply">Apply</button>
 		</div>
 
 	</body>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.bundle.js"></script>
-    <script src="jquery-3.2.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+
     <!--Testing for local-->
     <script src="../static/scripts/allCharts.js"></script>
     <script src="../static/scripts/countdown.js"></script>
-    <script src="../static/scripts/cursor.js.js"></script>
+<!--     <script src="../static/scripts/cursor.js"></script>
+ -->    <script src="../static/scripts/jquery.js"></script>
 
     <!--For Flask-->
     <script src="{{url_for('static', filename='scripts/countdown.js')}}"></script>
-    <script src="{{url_for('static', filename='scripts/cursor.js')}}"></script>
-    <script src="{{url_for('static', filename='scripts/allCharts.js')}}"></script>
+<!--     <script src="{{url_for('static', filename='scripts/cursor.js')}}"></script>
+ -->    <script src="{{url_for('static', filename='scripts/allCharts.js')}}"></script>
+    <script src="{{url_for('static', filename='scripts/jquery.js')}}"></script>
+    <script>
+	
+    </script>
+
 </html>

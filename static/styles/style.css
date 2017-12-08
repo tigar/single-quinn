@@ -23,13 +23,16 @@ div.pane {
 div.nav {
 	left: 0px;
 	top: 0px;
-	width: 100%;
+	/*width: 100%;*/
 	position:fixed;
 	background-color: rgba(50,50,50,1);
 	padding: 10px;
 }
-p.navbutton {
+button.navbutton {
+	font-family: 'Raleway';
 	display: inline;
+	background-color: rgba(0,0,0,0);
+	border-style: none;
 	color: white;
 	margin: 2px;
 }
