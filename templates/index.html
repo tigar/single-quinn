@@ -4,7 +4,6 @@
 		<meta charset="utf-8">
 		<title>Is Quinn Single?</title>
 		<!--<link href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway" rel="stylesheet">-->
-		<script src="{{url_for('static', filename='scripts/cursor.js')}}"></script>
 		<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
 	</head>
 	<body>
@@ -24,7 +23,7 @@
 							<td id="seconds"></td>
 						</tr>
 						<tr class="caption">
-							<td>Days</td> 
+							<td>Days</td>
 							<td>Hours</td>
 							<td>Minutes</td>
 							<td>Seconds</td>
@@ -33,8 +32,12 @@
 				</table>
 			</div>
 			<div id="container" style="width: 75%;">
-				<canvas id="chart1"></canvas>
+				<canvas id="pie" width="300" height="100"></canvas>
 			</div>
 		</div>
+
 	</body>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.bundle.js"></script>
+	<script src="../static/scripts/scripts.js"></script>
+	<script src="{{url_for('static', filename='scripts/cursor.js')}}"></script>
 </html>
