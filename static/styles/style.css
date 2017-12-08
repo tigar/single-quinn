@@ -12,9 +12,17 @@ p.title {
 	text-align: center;
 }
 div.main {
+	position: absolute;
 	margin: auto;
 	width: 80%;
 }
+/*div.main {
+  
+  line-height: 20px;
+  font-size: 14px;
+  left: 20px;
+  top: 20px;
+}*/
 
 /* Table stuff */
 div.tableContainer {
