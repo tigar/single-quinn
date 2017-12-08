@@ -1,6 +1,33 @@
-p {
-	color: red;
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Raleway');
+:root {
+	font-family: 'Raleway';
 }
-p.test {
-	font-family: sans-serif;
+
+p {
+	font-family: 'Raleway';
+}
+p.title {
+	font-size: 200%;
+	font-family: 'Playfair Display',serif;
+	text-align: center;
+}
+div.main {
+	margin: auto;
+	width: 80%;
+}
+
+/* Table stuff */
+div.tableContainer {
+	margin: auto;
+	width: 50%;
+	background: rgb(200,200,200);
+	border-radius: 5px;
+}
+
+.info {
+
+}
+
+.caption {
+	font-size: 50%;
 }

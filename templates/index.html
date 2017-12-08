@@ -7,9 +7,35 @@
 		<link rel= "stylesheet" type= "text/css" href="../static/styles/style.css">
 	</head>
 	<body>
-		<p>hello worldd!</p>
-		<p class="test">this is live update</p>
-		<canvas id="pie" width="300" height="100"></canvas>
+		<div class="main">
+			<p class="title">how long has quinn been single?</p>
+			<p>It's been</p>
+			<div class="tableContainer">
+				<table class="countUp">
+					<tbody>
+						<tr class="info">
+							<td colspan="4">since last relationship</td>
+						</tr>
+						<tr class="info">
+							<td id="days"></td>
+							<td id="hours"></td>
+							<td id="minutes"></td>
+							<td id="seconds"></td>
+						</tr>
+						<tr class="caption">
+							<td>Days</td>
+							<td>Hours</td>
+							<td>Minutes</td>
+							<td>Seconds</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div id="container" style="width: 75%;">
+				<canvas id="pie" width="300" height="100"></canvas>
+			</div>
+		</div>
+
 	</body>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.bundle.js"></script>
 	<script src="../static/scripts/scripts.js"></script>
