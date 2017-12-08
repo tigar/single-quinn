@@ -1,4 +1,6 @@
-
 p {
 	color: red;
+}
+p.test {
+	font-family: sans-serif;
 }
