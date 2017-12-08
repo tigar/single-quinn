@@ -16,6 +16,22 @@ div.main {
 	margin: auto;
 	width: 80%;
 }
+/* Navigation */
+div.nav {
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	position:fixed;
+	background-color: rgba(0,0,0,0.4);
+	padding: 10px;
+}
+button.navbutton {
+	display: inline;
+	border: none;
+	border-radius: 5px;
+	background-color:  rgb(200,200,200);
+	margin: 2px;
+}
 /*div.main {
   
   line-height: 20px;
@@ -30,6 +46,10 @@ div.tableContainer {
 	width: 50%;
 	background: rgb(200,200,200);
 	border-radius: 5px;
+}
+
+.info-title {
+	font-size: 200%;
 }
 
 .info {
