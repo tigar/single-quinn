@@ -22,24 +22,3 @@ function countdown(){
 	setTimeout(countdown, 1000);
 }
 countdown();
-
-
-
-
-// new Chart(document.getElementById("line-chart"), {
-//     type: 'pie',
-//     data: {
-//       labels: ["$w@g", "Dabbing", "Water Polo Skills", "Cuddliness", "Dietary Restrictions"],
-//       datasets: [{
-//         label: "Percentage",
-//         backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
-//         data: [30,10,10,4,25]
-// 	}]
-//     },
-//     options: {
-//       title: {
-//         display: true,
-//         text: 'Predicted world population (millions) in 2050'
-//       }
-//     }
-// });
