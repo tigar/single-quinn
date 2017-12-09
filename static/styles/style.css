@@ -3,6 +3,10 @@
 	font-family: 'Raleway';
 }
 
+body {
+	
+}
+
 p {
 	font-family: 'Raleway';
 }
@@ -17,7 +21,8 @@ div.main {
 	width: 80%;
 }
 div.pane {
-	 height:100vh;
+	 height:90vh;
+	 width: 100%
 }
 /* Navigation */
 div.nav {

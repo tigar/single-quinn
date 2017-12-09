@@ -14,18 +14,21 @@
 					<table class="countUp">
 						<tbody>
 							<tr class="info-title">
-								<td colspan="4">It has been</td>
+								<td colspan="7">It has been</td>
 							</tr>
 							<tr class="info">
 								<td id="days"></td>
+								<td>:</td>
 								<td id="hours"></td>
+								<td>:</td>
 								<td id="minutes"></td>
+								<td>:</td>
 								<td id="seconds"></td>
 							</tr>
 							<tr class="caption">
-								<td>Days</td>
-								<td>Hours</td>
-								<td>Minutes</td>
+								<td colspan="2">Days</td>
+								<td colspan="2">Hours</td>
+								<td colspan="2">Minutes</td>
 								<td>Seconds</td>
 							</tr>
 						</tbody>
@@ -34,6 +37,7 @@
 			</div>
 			<div class="pane" id="container" style="width: 75%;">
 				<canvas id="pie" width="300" height="100"></canvas>
+				<canvas id="line-chart" width="300" height="100"></canvas>
 			</div>
 			<div class="pane" id="application"></div>
 		</div>
