@@ -2,7 +2,7 @@ function countdown(){
 	var now = new Date();
 	var eventDate = new Date(2017, 9, 21);
 	var currentTime = now.getTime();
-	var eventTime = eventDate.setTime(1508597040000);
+	var eventTime = eventDate.setTime(1511842980000);
 	var remTime = currentTime - eventTime;
 	var s = Math.floor(remTime / 1000);
 	var m = Math.floor(s / 60);
